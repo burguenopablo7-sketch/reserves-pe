@@ -3,9 +3,9 @@
 ## Eneko Clares Robisco
 <div align="center">
 
-![Eneko Clares Robisco](ruta/de/la/foto.jpg)
+![Eneko Clares Robisco](img/eneko.png)
 
 ## Pablo Burgueño Pesado
 <div align="center"> 
 
-![Pablo Burgueño Pesado](ruta/de/la/foto.jpg)
+![Pablo Burgueño Pesado](img/foto_grupo.png)
