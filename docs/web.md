@@ -1,4 +1,5 @@
 # 🎬 Reserva Cinema 🍿
+![Logo](img/logo.png)
 
 Aquesta web permet reservar la teva butaca de cinema en segons des del mòbil: *tria la sessió*, **paga online** i entra amb el teu ***codi QR***. Sense cues, ~~sense taquilla~~, sense riscos.
 
@@ -25,9 +26,9 @@ La reserva només queda confirmada després del pagament online. Llavors rebràs
 3. Si algú altre l'ha triat abans, el xat suggereix seients lliures
 4. Arriba el codi QR i s'entra a la sala sense passar per taquilla
 
-## Imatge
+## Ocupació de la sala
 
-![Ocupació per sala](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iMjgwIiB2aWV3Qm94PSIwIDAgNjQwIDI4MCIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiPjxyZWN0IHdpZHRoPSI2NDAiIGhlaWdodD0iMjgwIiByeD0iMTQiIGZpbGw9IiMxYjFmNDUiLz48dGV4dCB4PSIyNCIgeT0iMzgiIGZpbGw9IiNlY2U4ZjUiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtd2VpZ2h0PSJib2xkIj5PY3VwYWNpw7MgcGVyIHNhbGEgKGRhZGVzIGQnZXhlbXBsZSk8L3RleHQ+PHRleHQgeD0iMjQiIHk9Ijg4IiBmaWxsPSIjYTlhNmM0IiBmb250LXNpemU9IjE1Ij5TYWxhIDE8L3RleHQ+PHJlY3QgeD0iMTAwIiB5PSI2NiIgd2lkdGg9IjMzMS4yIiBoZWlnaHQ9IjMwIiByeD0iNyIgZmlsbD0iIzVmZDNiMCIvPjx0ZXh0IHg9IjQ0MS4yIiB5PSI4NyIgZmlsbD0iI2VjZThmNSIgZm9udC1zaXplPSIxNSI+NzIlPC90ZXh0Pjx0ZXh0IHg9IjI0IiB5PSIxMzYiIGZpbGw9IiNhOWE2YzQiIGZvbnQtc2l6ZT0iMTUiPlNhbGEgMjwvdGV4dD48cmVjdCB4PSIxMDAiIHk9IjExNCIgd2lkdGg9IjI2Ni43OTk5OTk5OTk5OTk5NSIgaGVpZ2h0PSIzMCIgcng9IjciIGZpbGw9IiNmZmI1NDciLz48dGV4dCB4PSIzNzYuNzk5OTk5OTk5OTk5OTUiIHk9IjEzNSIgZmlsbD0iI2VjZThmNSIgZm9udC1zaXplPSIxNSI+NTglPC90ZXh0Pjx0ZXh0IHg9IjI0IiB5PSIxODQiIGZpbGw9IiNhOWE2YzQiIGZvbnQtc2l6ZT0iMTUiPlNhbGEgMzwvdGV4dD48cmVjdCB4PSIxMDAiIHk9IjE2MiIgd2lkdGg9IjQxOC41OTk5OTk5OTk5OTk5NyIgaGVpZ2h0PSIzMCIgcng9IjciIGZpbGw9IiNlODUwNmEiLz48dGV4dCB4PSI1MjguNTk5OTk5OTk5OTk5OSIgeT0iMTgzIiBmaWxsPSIjZWNlOGY1IiBmb250LXNpemU9IjE1Ij45MSU8L3RleHQ+PHRleHQgeD0iMjQiIHk9IjIzMiIgZmlsbD0iI2E5YTZjNCIgZm9udC1zaXplPSIxNSI+U2FsYSA0PC90ZXh0PjxyZWN0IHg9IjEwMCIgeT0iMjEwIiB3aWR0aD0iMTg0LjAiIGhlaWdodD0iMzAiIHJ4PSI3IiBmaWxsPSIjOGY4Y2ZmIi8+PHRleHQgeD0iMjk0LjAiIHk9IjIzMSIgZmlsbD0iI2VjZThmNSIgZm9udC1zaXplPSIxNSI+NDAlPC90ZXh0Pjwvc3ZnPg==)
+![Ocupació per sala](img/foto_ejemplo.png)
 
 Ocupació de les sales en una tarda d'exemple. La Sala 3 és la que s'omple abans.
 
