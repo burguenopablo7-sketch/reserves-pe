@@ -1,37 +1,67 @@
+
+<div align="center">
+
 # 🎬 Reserva Cinema 🍿
+
 ![Logo](img/logo.png)
 
-Aquesta web permet reservar la teva butaca de cinema en segons des del mòbil: *tria la sessió*, **paga online** i entra amb el teu ***codi QR***.~~Sense cues, sense taquilla, sense riscos.~~
+</div>
 
+Aquesta web permet reservar la teva butaca de cinema en segons des del mòbil: **tria la sessió, paga online i entra amb el teu codi QR.** ~~Sense cues, sense taquilla, sense riscos.~~
 
 > El cinema obre de dilluns a diumenge, tots els dies de l'any. La primera sessió comença a les 16:00 h i l'última funció acaba a les 01:00 h.
 
+<div align="center">
+
 ### Per a l'espectador
+
+</div>
+
 Pensat per a qui vol veure una pel·lícula sense fer cua a la taquilla i sense arriscar-se a trobar les entrades esgotades.
 
+<div align="center">
+
 #### Reserva en 4 passos
+
+</div>
+
 Pel·lícula, sessió, butaca i pagament. Tot es pot fer parlant amb el xat.
 
-##### Pagament i QR
-La reserva només queda confirmada després del pagament online. Llavors rebràs el codi QR per entrar directe a la sala.
+<div align="center">
+
+#### Pagament i QR
+
+</div>
+
+La reserva només queda confirmada després del pagament online. Llavors rebràs el codi QR per entrar directament a la sala.
+
+<div align="center">
 
 ## Passos
 
-- Tria la **pel·lícula** i la sessió
-- Selecciona la butaca al mapa de la sala
-- Paga online: la reserva **només es confirma** després del pagament
-- Cancel·la o canvia la sessió des de l'app fins a 30 minuts abans
+</div>
 
-1. L'usuari parla amb el xat
-2. El sistema bloqueja la butaca en temps real mentre es fa la compra
-3. Si algú altre l'ha triat abans, el xat suggereix seients lliures
-4. Arriba el codi QR i s'entra a la sala sense passar per taquilla
+- Tria la **pel·lícula** i la sessió.
+- Selecciona la butaca al mapa de la sala.
+- Paga online: la reserva **només es confirma** després del pagament.
+- Cancel·la o canvia la sessió des de l'app fins a 30 minuts abans.
+
+1. L'usuari parla amb el xat.
+2. El sistema bloqueja la butaca en temps real mentre es fa la compra.
+3. Si algú altre l'ha triat abans, el xat suggereix seients lliures.
+4. Arriba el codi QR i s'entra a la sala sense passar per taquilla.
+
+<div align="center">
 
 ## Ocupació de la sala
 
 ![Ocupació per sala](img/foto_ejemplo.png)
 
+</div>
+
 Ocupació de les sales en una tarda d'exemple. La Sala 3 és la que s'omple abans.
+
+<div align="center">
 
 ### Mapa de la sala
 
@@ -39,19 +69,27 @@ Ocupació de les sales en una tarda d'exemple. La Sala 3 és la que s'omple aban
 
 📽️ Pantalla 📽️
 
-Fila 1 🟩🟩🟩🟩🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩  
-Fila 2 🟩🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
-Fila 3 🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟩🟩🟩🟩  
-Fila 4 🟩🟩🟩🟩🟩🟥🟥🟩🟩🟩🟩🟩🟩🟩  
-Fila 5 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟨🟥🟩  
-Fila 6 🟩🟩🟥🟩🟩🟩🟩🟥🟩🟩🟩🟩🟩🟩
+</div>
+
+<div align="center">
+
+**Fila 1** 🟩🟩🟩🟩🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩
+**Fila 2** 🟩🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
+**Fila 3** 🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟩🟩🟩🟩
+**Fila 4** 🟩🟩🟩🟩🟩🟥🟥🟩🟩🟩🟩🟩🟩🟩
+**Fila 5** 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟨🟥🟩
+**Fila 6** 🟩🟩🟥🟩🟩🟩🟥🟩🟩🟩🟩🟩🟩🟩
+
+</div>
+
+<div align="center">
 
 🟩 Lliure · 🟥 Ocupada · 🟨 La teva butaca (Fila 5, Seient 12)
 
 ### La teva entrada
 
-| 🎟️ Entrada | |
-| --- | --- |
+| 🎟️ Entrada | Detalls |
+|---|---|
 | Pel·lícula | **Shrek** |
 | Data | 18 de setembre |
 | Sessió | 18:30 · Sala 3 |
@@ -59,7 +97,14 @@ Fila 6 🟩🟩🟥🟩🟩🟩🟩🟥🟩🟩🟩🟩🟩🟩
 | Preu | 8,50 € |
 | Accés | Codi QR |
 
+<div align="center">
+
 # Xat IA
+
+### Butaca lliure
+
+</div>
+
 > 🤖 **Xat:** Hola! 👋 Quina pel·lícula vols veure?
 >
 > 👤 **Alex:** Shrek
@@ -78,13 +123,17 @@ Fila 6 🟩🟩🟥🟩🟩🟩🟩🟥🟩🟩🟩🟩🟩🟩
 >
 > 🤖 **Xat:** 🎉 Reserva confirmada! Aquí tens el teu codi QR.
 
+<div align="center">
+
 ### Butaca ocupada
+
+</div>
 
 > 🤖 **Xat:** Quina butaca vols?
 >
 > 👤 **Alex:** Fila 5, seient 12.
 >
-> 🤖 **Xat:** ❌ Aquesta butaca acaba de ser seleccionada per un altre usuari. Et puc oferir: Fila 5 seient 11, Fila 5 seient 13 o Fila 6 seient 12.
+> 🤖 **Xat:** ❌ Aquesta butaca acaba de ser seleccionada per un altre usuari. Et puc oferir: Fila 5, seient 11; Fila 5, seient 13; o Fila 6, seient 12.
 >
 > 👤 **Alex:** Fila 5, seient 13.
 >
