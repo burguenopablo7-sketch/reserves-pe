@@ -1,44 +1,33 @@
 
-<div align="center">
-
-# 🎬 Reserva Cinema 🍿
-
-![Logo](img/logo.png)
-
+<div style="text-align:center">
+  <h1>🎬 Reserva Cinema 🍿</h1>
+  <img src="img/logo.png" alt="Logo" width="240" />
 </div>
 
 Aquesta web permet reservar la teva butaca de cinema en segons des del mòbil: **tria la sessió, paga online i entra amb el teu codi QR.** ~~Sense cues, sense taquilla, sense riscos.~~
 
 > El cinema obre de dilluns a diumenge, tots els dies de l'any. La primera sessió comença a les 16:00 h i l'última funció acaba a les 01:00 h.
 
-<div align="center">
-
-### Per a l'espectador
-
+<div style="text-align:center">
+  <h3>Per a l'espectador</h3>
 </div>
 
 Pensat per a qui vol veure una pel·lícula sense fer cua a la taquilla i sense arriscar-se a trobar les entrades esgotades.
 
-<div align="center">
-
-#### Reserva en 4 passos
-
+<div style="text-align:center">
+  <h4>Reserva en 4 passos</h4>
 </div>
 
 Pel·lícula, sessió, butaca i pagament. Tot es pot fer parlant amb el xat.
 
-<div align="center">
-
-#### Pagament i QR
-
+<div style="text-align:center">
+  <h4>Pagament i QR</h4>
 </div>
 
 La reserva només queda confirmada després del pagament online. Llavors rebràs el codi QR per entrar directament a la sala.
 
-<div align="center">
-
-## Passos
-
+<div style="text-align:center">
+  <h2>Passos</h2>
 </div>
 
 - Tria la **pel·lícula** i la sessió.
@@ -51,58 +40,49 @@ La reserva només queda confirmada després del pagament online. Llavors rebràs
 3. Si algú altre l'ha triat abans, el xat suggereix seients lliures.
 4. Arriba el codi QR i s'entra a la sala sense passar per taquilla.
 
-<div align="center">
-
-## Ocupació de la sala
-
-![Ocupació per sala](img/foto_ejemplo.png)
-
+<div style="text-align:center">
+  <h2>Ocupació de la sala</h2>
+  <img src="img/foto_ejemplo.png" alt="Ocupació per sala" />
 </div>
 
 Ocupació de les sales en una tarda d'exemple. La Sala 3 és la que s'omple abans.
 
-<div align="center">
-
-### Mapa de la sala
-
-**Shrek · 18:30 · Sala 3**
-
-📽️ Pantalla 📽️
-
+<div style="text-align:center">
+  <h3>Mapa de la sala</h3>
+  
+  <strong>Shrek · 18:30 · Sala 3</strong>
+  
+  <p>📽️ Pantalla 📽️</p>
 </div>
 
-<div align="center">
-
-**Fila 1** 🟩🟩🟩🟩🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩
-**Fila 2** 🟩🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
-**Fila 3** 🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟩🟩🟩🟩
-**Fila 4** 🟩🟩🟩🟩🟩🟥🟥🟩🟩🟩🟩🟩🟩🟩
-**Fila 5** 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟨🟥🟩
-**Fila 6** 🟩🟩🟥🟩🟩🟩🟥🟩🟩🟩🟩🟩🟩🟩
-
+<div style="text-align:center">
+  <p><strong>Fila 1</strong> 🟩🟩🟩🟩🟥🟥🟩🟩🟩🟩🟩🟩🟩🟩</p>
+  <p><strong>Fila 2</strong> 🟩🟥🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩</p>
+  <p><strong>Fila 3</strong> 🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥🟩🟩🟩🟩</p>
+  <p><strong>Fila 4</strong> 🟩🟩🟩🟩🟩🟥🟥🟩🟩🟩🟩🟩🟩🟩</p>
+  <p><strong>Fila 5</strong> 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥🟨🟥🟩</p>
+  <p><strong>Fila 6</strong> 🟩🟩🟥🟩🟩🟩🟥🟩🟩🟩🟩🟩🟩🟩</p>
 </div>
 
-<div align="center">
+<div style="text-align:center">
+  <p>🟩 Lliure · 🟥 Ocupada · 🟨 La teva butaca (Fila 5, Seient 12)</p>
 
-🟩 Lliure · 🟥 Ocupada · 🟨 La teva butaca (Fila 5, Seient 12)
+  <h3>La teva entrada</h3>
 
-### La teva entrada
+  <table>
+    <tr><th>🎟️ Entrada</th><th>Detalls</th></tr>
+    <tr><td>Pel·lícula</td><td><strong>Shrek</strong></td></tr>
+    <tr><td>Data</td><td>18 de setembre</td></tr>
+    <tr><td>Sessió</td><td>18:30 · Sala 3</td></tr>
+    <tr><td>Butaca</td><td>Fila 5, Seient 12</td></tr>
+    <tr><td>Preu</td><td>8,50 €</td></tr>
+    <tr><td>Accés</td><td>Codi QR</td></tr>
+  </table>
+</div>
 
-| 🎟️ Entrada | Detalls |
-|---|---|
-| Pel·lícula | **Shrek** |
-| Data | 18 de setembre |
-| Sessió | 18:30 · Sala 3 |
-| Butaca | Fila 5, Seient 12 |
-| Preu | 8,50 € |
-| Accés | Codi QR |
-
-<div align="center">
-
-# Xat IA
-
-### Butaca lliure
-
+<div style="text-align:center">
+  <h1>Xat IA</h1>
+  <h3>Butaca lliure</h3>
 </div>
 
 > 🤖 **Xat:** Hola! 👋 Quina pel·lícula vols veure?
@@ -123,10 +103,8 @@ Ocupació de les sales en una tarda d'exemple. La Sala 3 és la que s'omple aban
 >
 > 🤖 **Xat:** 🎉 Reserva confirmada! Aquí tens el teu codi QR.
 
-<div align="center">
-
-### Butaca ocupada
-
+<div style="text-align:center">
+  <h3>Butaca ocupada</h3>
 </div>
 
 > 🤖 **Xat:** Quina butaca vols?
