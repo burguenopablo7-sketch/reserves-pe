@@ -4,14 +4,14 @@
 
 ## Eneko Clares Robisco
 
-![Eneko](img/eneko.png)
+<img src="img/eneko.png" alt="Eneko" width="220">
 
 **17 anys — Estudiant de SMX**  
 *"Aprendiz de mucho maestro de nada."*
 
 ## Pablo Burgueño Pesado
 
-![Pablo](img/foto_grupo.png)
+<img src="img/foto_grupo.png" alt="Pablo" width="220">
 
 **17 anys — Estudiant de SMX**  
 *"Las cosas de palacio van despacio."*
