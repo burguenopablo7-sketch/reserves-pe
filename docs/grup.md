@@ -1,17 +1,17 @@
-<div align="center">
-
 # Membres de Reserves PE
 
 ![Logo](img/logo.png)
 
 ## Eneko Clares Robisco
 
-![Eneko](img/eneko.png)
+![Eneko](img/eneko.png){ width="180" }
+
 **17 anys — Estudiant de SMX**  
-*"Aprendiz de mucho maestro de nada."*
+*"Aprendiz de mucho maestro de nada"*
 
 ## Pablo Burgueño Pesado
 
-![Pablo](img/foto_grupo.png)
+![Pablo](img/foto_grupo.png){ width="180" }
+
 **17 anys — Estudiant de SMX**  
-*"Las cosas de palacio van despacio."*
+*"Las cosas de palacio van despacio"*
