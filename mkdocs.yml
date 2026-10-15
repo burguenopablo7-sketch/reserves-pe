@@ -31,12 +31,11 @@ nav:
   - Inici: index.md
 
 markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - tables
-  - pymdownx.superfences
   - pymdownx.highlight:
+      linenums: true
       anchor_linenums: true
-      line_nums: true
-  - pymdownx.tabbed:
-      alternate_style: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - toc:
+      permalink: true
+  - admonition
