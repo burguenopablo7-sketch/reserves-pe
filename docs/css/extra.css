@@ -1,0 +1,94 @@
+/* Estils personalitzats per a la web de Reserves PE */
+
+:root {
+  --md-primary-fg-color: #1f4e79;
+  --md-accent-fg-color: #00a6d6;
+  --md-default-bg-color: #f8fafc;
+  --md-typeset-color: #1f2937;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.7;
+  background: #f8fafc;
+  color: var(--md-typeset-color);
+}
+
+.md-grid {
+  max-width: 1100px;
+}
+
+.md-content {
+  padding-top: 1rem;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  color: #163a5f;
+}
+
+.md-typeset img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.15);
+}
+
+.md-typeset table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.md-typeset th,
+.md-typeset td {
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  padding: 0.75rem 0.9rem;
+}
+
+.md-typeset th {
+  background: #eaf4ff;
+}
+
+.md-typeset blockquote {
+  border-left: 4px solid var(--md-accent-fg-color);
+  background: rgba(0, 166, 214, 0.05);
+  padding: 0.75rem 1rem;
+  border-radius: 0 10px 10px 0;
+}
+
+.md-typeset code {
+  border-radius: 6px;
+}
+
+/* Centrar imatges i textos en divs d'align=center */
+[align="center"] {
+  text-align: center;
+}
+
+[align="center"] img {
+  display: inline-block;
+}
+
+/* Millora visual per als cards de persones */
+[style*="border: 2px solid #ccc"] {
+  background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+  border-radius: 16px !important;
+  box-shadow: 0 10px 24px rgba(22, 58, 95, 0.08);
+}
+
+/* Adaptació de la pàgina a mòbil */
+@media (max-width: 768px) {
+  .md-content {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .md-typeset h1 {
+    font-size: 1.8rem;
+  }
+}
