@@ -5,34 +5,23 @@
 
 ## Eneko Clares Robisco
 
-<div align="center">
+<div style="border: 2px solid #ccc; padding: 15px; border-radius: 12px; width: 250px;">
 
-<table>
-<tr><td style="border: 2px solid #ccc; padding: 15px; border-radius: 12px;">
-
-<img src="img/eneko.png" width="225" style="border-radius: 10px;"><br>
-17 anys — Estudiant de SMX  
+<img src="img/eneko.png" width="225" style="border-radius: 10px;">
 <br>
-#### *"Aprendiz de mucho maestro de nada"*
+17 anys — Estudiant de SMX  
 
-</td></tr>
-</table>
+#### *"Aprendiz de mucho maestro de nada"*
 
 </div>
 
 ## Pablo Burgueño Pesado
+<div style="border: 2px solid #ccc; padding: 15px; border-radius: 12px; width: 250px;">
 
-<div align="center">
-
-<table>
-<tr><td style="border: 2px solid #ccc; padding: 15px; border-radius: 12px;">
-
-<img src="img/foto_grupo.png" width="225" style="border-radius: 10px;"><br>
-17 anys — Estudiant de SMX  
+<img src="img/foto_grupo.png" width="225" style="border-radius: 10px;">
 <br>
-#### *"Las cosas de palacio van despacio"*
+17 anys — Estudiant de SMX
 
-</td></tr>
-</table>
+#### *"Las cosas de palacio van despacio"*
 
 </div>
