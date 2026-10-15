@@ -4,6 +4,8 @@ use_directory_urls: true
 
 docs_dir: docs
 site_dir: site
+extra_css:
+  - css/extra.css
 
 theme:
   name: material
