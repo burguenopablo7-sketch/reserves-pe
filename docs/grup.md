@@ -1,24 +1,27 @@
-<div class="group-header">
-  <img src="img/logo.png" alt="Logo de Reserves PE">
-  <h1>Membres de Reserves PE</h1>
+<div align="center">
+
+# Membres de Reserves PE
+
+![Logo](img/logo.png)
+
+## Eneko Clares Robisco
+
 </div>
 
-<div class="member-grid">
-  <article class="member-card">
-    <img src="img/eneko.png" alt="Eneko Clares Robisco">
-    <div class="member-info">
-      <h2>Eneko Clares Robisco</h2>
-      <p><strong>17 anys — Estudiant de SMX</strong></p>
-      <blockquote>“Aprendiz de mucho maestro de nada”</blockquote>
-    </div>
-  </article>
+| ![Eneko](img/eneko.png) |  
+| --- |  
+| **17 anys — Estudiant de SMX** |  
+| *"Aprendiz de mucho maestro de nada"* |
 
-  <article class="member-card">
-    <img src="img/foto_grupo.png" alt="Pablo Burgueño Pesado">
-    <div class="member-info">
-      <h2>Pablo Burgueño Pesado</h2>
-      <p><strong>17 anys — Estudiant de SMX</strong></p>
-      <blockquote>“Las cosas de palacio van despacio”</blockquote>
-    </div>
-  </article>
+<br>
+
+<div align="center">
+
+## Pablo Burgueño Pesado
+
 </div>
+
+| ![Pablo](img/foto_grupo.png) |  
+| --- |  
+| **17 anys — Estudiant de SMX** |  
+| *"Las cosas de palacio van despacio"* |
