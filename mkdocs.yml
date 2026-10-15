@@ -31,6 +31,7 @@ theme:
 
 nav:
   - Inici: index.md
+  - Colaboradors: grup.md
 
 markdown_extensions:
   - pymdownx.highlight:
