@@ -2,7 +2,7 @@
 
 ![Logo](img/logo.png)
 
-Aquesta web permet reservar la teva butaca de cinema en segons des del mòbil: Tria la sessió,paga online i entra amb el teu codi QR. Sense cues, sense taquilla, sense riscos.
+Aquesta web permet reservar la teva butaca de cinema en segons des del mòbil: Tria la sessió, paga online i entra amb el teu codi QR. Sense cues, sense taquilla, sense riscos.
 
 
 > El cinema obre de dilluns a diumenge, tots els dies de l'any. La primera sessió comença a les 16:00 h i l'última funció acaba a les 01:00 h.
