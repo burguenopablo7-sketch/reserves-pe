@@ -1,7 +1,46 @@
 site_name: Documentació del Projecte
+site_url: https://burguenopablo7-sketch.github.io/reserves-pe/
 
 theme:
   name: material
+  language: es
+  feature:
+    navigation.tabs: true
+    navigation.top: true
+    content.code.copy: true
+    navigation. instant: true
+    navigation.tracking: true
+    header.autohide: true
+
+palette:
+  media: "(prefers-color-scheme: light)"
+  scheme: default
+  primary: blue grey
+  accent: cyan
+  toggle:
+      icon: material/weather-night
+      name: Cambiar a modo oscuro
+
+  media: (prefers-color-scheme: dark)
+  scheme: slate
+  primary: blue grey
+  accent: cyan
+  toggle:
+    icon: material/weather-sunny
+    name: Cambiar a modo claro
 
 nav:
   - Inici: index.md
+
+markdown_extensions:
+  - admonition          
+  - pymdownx.details    
+  - tables              
+  - pymdownx.superfences
+
+pymdownx.highlight: 
+  anchor_linenums: true
+  line_nums: true
+  
+pymdownx.tabbed:    
+  alternate_style: true
