@@ -29,9 +29,6 @@ theme:
         icon: material/weather-sunny
         name: Cambiar a modo claro
 
-extra_css:
-  - css/extra.css
-
 nav:
   - Inici: index.md
 
