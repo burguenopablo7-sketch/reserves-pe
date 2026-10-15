@@ -32,27 +32,4 @@ jobs:
         with:
           path: site/
 
-      - name: Wait for any active GitHub Pages deployment
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -euo pipefail
-          owner="${GITHUB_REPOSITORY%/*}"
-          repo="${GITHUB_REPOSITORY#*/}"
-
-          for attempt in $(seq 1 30); do
-            active=$(gh api "repos/$owner/$repo/pages/builds" --jq '.[] | select(.status == "building" or .status == "queued") | .status' || true)
-
-            if [ -z "$active" ]; then
-              echo "No active GitHub Pages deployment detected. Proceeding."
-              exit 0
-            fi
-
-            echo "A GitHub Pages deployment is still in progress. Waiting 10 seconds before retrying ($attempt/30)..."
-            sleep 10
-          done
-
-          echo "Timed out waiting for the previous GitHub Pages deployment to finish." >&2
-          exit 1
-
       - uses: actions/deploy-pages@v4
