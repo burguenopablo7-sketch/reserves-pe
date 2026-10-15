@@ -8,9 +8,9 @@
 
 </div>
 
-| ![Eneko](img/eneko.png) |  
-| --- |  
-| **17 anys — Estudiant de SMX** |  
+| ![Eneko](img/eneko.png) |
+| --- |
+| **17 anys — Estudiant de SMX** |
 | *"Aprendiz de mucho maestro de nada"* |
 
 <br>
@@ -21,7 +21,7 @@
 
 </div>
 
-| ![Pablo](img/foto_grupo.png) |  
-| --- |  
-| **17 anys — Estudiant de SMX** |  
+| ![Pablo](img/foto_grupo.png) |
+| --- |
+| **17 anys — Estudiant de SMX** |
 | *"Las cosas de palacio van despacio"* |
