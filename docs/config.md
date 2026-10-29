@@ -1,4 +1,4 @@
-# **Què és MkDocs?**
+# **Configuracions**
 
 ### **Què és mkdocs.yml?**
 
