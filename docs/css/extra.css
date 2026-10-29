@@ -1,17 +1,28 @@
-/* Estils personalitzats per a la web de Reserves PE */
-
 :root {
   --md-primary-fg-color: #1f4e79;
   --md-accent-fg-color: #00a6d6;
   --md-default-bg-color: #f8fafc;
   --md-typeset-color: #1f2937;
+  --reserves-bg: #f8fafc;
+  --reserves-text: #1f2937;
+  --reserves-card-bg: #ffffff;
+  --reserves-muted: #475569;
+  --reserves-border: rgba(148, 163, 184, 0.35);
+}
+
+[data-md-color-scheme="slate"] {
+  --reserves-bg: #0f172a;
+  --reserves-text: #e2e8f0;
+  --reserves-card-bg: #111827;
+  --reserves-muted: #cbd5e1;
+  --reserves-border: rgba(148, 163, 184, 0.25);
 }
 
 body {
   font-family: "Segoe UI", Roboto, Arial, sans-serif;
   line-height: 1.7;
-  background: #f8fafc;
-  color: var(--md-typeset-color);
+  background: var(--reserves-bg);
+  color: var(--reserves-text);
 }
 
 .md-grid {
@@ -22,10 +33,33 @@ body {
   padding-top: 1rem;
 }
 
+.md-typeset {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
 .md-typeset h1,
 .md-typeset h2,
-.md-typeset h3 {
-  color: #163a5f;
+.md-typeset h3,
+.md-typeset h4 {
+  color: var(--reserves-text);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.md-typeset p,
+.md-typeset li,
+.md-typeset td,
+.md-typeset th,
+.md-typeset a,
+.md-typeset strong,
+.md-typeset em {
+  color: var(--reserves-text);
+}
+
+.md-typeset a {
+  color: #0b6ea8;
+  font-weight: 600;
 }
 
 .md-typeset img {
@@ -34,7 +68,7 @@ body {
   height: auto;
   margin: 1rem auto;
   border-radius: 12px;
-  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.15);
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.12);
 }
 
 .md-typeset table {
@@ -46,17 +80,18 @@ body {
 
 .md-typeset th,
 .md-typeset td {
-  border: 1px solid rgba(148, 163, 184, 0.4);
+  border: 1px solid var(--reserves-border);
   padding: 0.75rem 0.9rem;
+  background: transparent;
 }
 
 .md-typeset th {
-  background: #eaf4ff;
+  background: rgba(0, 166, 214, 0.08);
 }
 
 .md-typeset blockquote {
   border-left: 4px solid var(--md-accent-fg-color);
-  background: rgba(0, 166, 214, 0.05);
+  background: rgba(0, 166, 214, 0.06);
   padding: 0.75rem 1rem;
   border-radius: 0 10px 10px 0;
 }
@@ -65,7 +100,6 @@ body {
   border-radius: 6px;
 }
 
-/* Centrar imatges i textos en divs d'align=center */
 [align="center"] {
   text-align: center;
 }
@@ -74,14 +108,12 @@ body {
   display: inline-block;
 }
 
-/* Millora visual per als cards de persones */
 [style*="border: 2px solid #ccc"] {
-  background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+  background: linear-gradient(180deg, var(--reserves-card-bg) 0%, rgba(0, 166, 214, 0.04) 100%);
   border-radius: 16px !important;
   box-shadow: 0 10px 24px rgba(22, 58, 95, 0.08);
 }
 
-/* Adaptació de la pàgina a mòbil */
 @media (max-width: 768px) {
   .md-content {
     padding-left: 0.5rem;
