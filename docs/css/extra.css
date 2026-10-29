@@ -1,21 +1,17 @@
 :root {
-  --md-primary-fg-color: #1f4e79;
-  --md-accent-fg-color: #00a6d6;
-  --md-default-bg-color: #f8fafc;
-  --md-typeset-color: #1f2937;
-  --reserves-bg: #f8fafc;
-  --reserves-text: #1f2937;
+  --reserves-bg: #ffffff;
+  --reserves-text: #111827;
   --reserves-card-bg: #ffffff;
+  --reserves-border: rgba(15, 23, 42, 0.12);
   --reserves-muted: #475569;
-  --reserves-border: rgba(148, 163, 184, 0.35);
 }
 
 [data-md-color-scheme="slate"] {
   --reserves-bg: #0f172a;
-  --reserves-text: #e2e8f0;
+  --reserves-text: #f8fafc;
   --reserves-card-bg: #111827;
-  --reserves-muted: #cbd5e1;
   --reserves-border: rgba(148, 163, 184, 0.25);
+  --reserves-muted: #cbd5e1;
 }
 
 body {
@@ -51,7 +47,6 @@ body {
 .md-typeset li,
 .md-typeset td,
 .md-typeset th,
-.md-typeset a,
 .md-typeset strong,
 .md-typeset em {
   color: var(--reserves-text);
@@ -94,10 +89,6 @@ body {
   background: rgba(0, 166, 214, 0.06);
   padding: 0.75rem 1rem;
   border-radius: 0 10px 10px 0;
-}
-
-.md-typeset code {
-  border-radius: 6px;
 }
 
 [align="center"] {
