@@ -32,6 +32,10 @@ theme:
 nav:
   - Inici: index.md
   - Colaboradors: grup.md
+  - Què és MkDocs?: que-es-mkdocs.md
+
+extra_css:
+  - css/extra.css
 
 markdown_extensions:
   - pymdownx.highlight:
