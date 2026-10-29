@@ -32,7 +32,7 @@ theme:
 nav:
   - Inici: index.md
   - Colaboradors: grup.md
-  - Què és MkDocs?: que-es-mkdocs.md
+  - Què és MkDocs?: config.md
 
 extra_css:
   - css/extra.css
