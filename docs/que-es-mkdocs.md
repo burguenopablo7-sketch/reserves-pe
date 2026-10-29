@@ -22,10 +22,13 @@ Imagina que vols fer dos canvis a la teva web:
 ### **Canvis a mkdocs.yml (Disseny de la web)**
 
 Al nostre mkdocs.yml, hem configurat el tema avançat material en idioma català (ca), afegint característiques de navegació fluida i extensions de Markdown per millorar el contingut:
+![mkdocs](img/mkdocs1.png)
+![mkdocs](img/mkdocs2.png)
 
 ### **Canvis a deploy.yml**
 
 El nostre arxiu deploy.yml utilitza un contenidor Docker oficial (squidfunk/mkdocs-material). Això empaqueta automàticament MkDocs i totes les seves extensions (pymdownx, admonition, etc.) per compilar la nostra web de manera ràpida i segura a GitHub Pages sense necessitat de gestionar comandes pip.
+![mkdocs](img/deploy.png)
 
 ## **Resum**
 
