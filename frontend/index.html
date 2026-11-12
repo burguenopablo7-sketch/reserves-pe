@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
-  <script type="module" src="./js/app.js"></script>
 </head>
 <body>
   <div class="app-shell">
@@ -27,63 +26,85 @@
 
     <div class="page-area">
       <header class="topbar">
-        <nav class="top-nav" aria-label="Secciones"><a class="top-link selected" href="#inicio">⌂ <span>Inicio</span></a><a class="top-link" href="#experiencias">▧ <span>Experiencias</span></a><a class="top-link" href="#reserva">◷ <span>Reservar mesa</span></a></nav>
+        <nav class="top-nav" aria-label="Secciones"><a class="top-link selected" href="#inicio">⌂ <span>Inicio</span></a><a class="top-link" href="#experiencias">▧ <span>Experiencias</span></a><a class="top-link" href="#reserva">◷ <span>Reservar butaca</span></a></nav>
         <div class="top-actions"><button class="icon-button" aria-label="Buscar">⌕</button><button class="avatar" aria-label="Tu cuenta">P</button></div>
       </header>
 
       <main class="dashboard" id="inicio">
         <div class="content-column">
           <section class="hero" id="experiencias" aria-label="Experiencia destacada">
-            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1400&q=85" alt="Interior cálido de un restaurante" class="hero-image">
+            <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1400&q=85" alt="Sala de cine preparada para la sesión" class="hero-image">
             <div class="hero-shade"></div>
-            <div class="hero-copy"><div class="eyebrow"><span class="eyebrow-line"></span> SABORES · EXPERIENCIAS</div><h1>Una mesa<br>para recordar.</h1><p>Descubre lugares únicos y encuentra el momento perfecto para compartir.</p><div class="hero-actions"><a href="#reserva" class="button button-primary">◷ &nbsp; Reservar ahora</a><a href="#experiencias" class="button button-glass">Ver experiencias</a></div></div>
+            <div class="hero-copy"><div class="eyebrow"><span class="eyebrow-line"></span> ESTRENO · AVENTURA</div><h1>AVATAR: EL CAMINO<br>DEL AGUA</h1><p>Vuelve a Pandora en una aventura épica llena de emoción y paisajes increíbles.</p><div class="hero-actions"><a href="#reserva" class="button button-primary">▶ &nbsp; Ver horarios</a><a href="#experiencias" class="button button-glass">Más información</a></div></div>
             <div class="hero-pagination"><i class="current"></i><i></i><i></i><i></i><i></i></div>
-            <span class="hero-tag">RECOMENDADO PARA TI</span>
+            <span class="hero-tag">AVENTURA · CIENCIA FICCIÓN</span>
           </section>
 
           <section class="section-block" id="reserva">
-            <div class="section-heading"><div><span class="section-kicker">ENCUENTRA TU SITIO</span><h2>Reserva tu próxima mesa</h2></div><span class="heading-note">Rápido y sin complicaciones <span class="muted-arrow">↗</span></span></div>
+            <div class="section-heading"><div><span class="section-kicker">ELIGE TU SESIÓN</span><h2>Reservar butaca</h2></div><span class="heading-note">🎟️ Selección de asientos <span class="muted-arrow">→</span></span></div>
             <div class="booking-card">
-              <div class="booking-intro"><span class="booking-icon">✦</span><div><h3>Una buena mesa te espera</h3><p>Elige cuándo y cuántos sois.</p></div></div>
-              <form id="booking-form" class="booking-form">
+              <div class="booking-intro"><span class="booking-icon">🎬</span><div><h3>Elige película y sesión</h3><p>Selecciona día, horario y cuántas entradas necesitas.</p></div></div>
+              <div class="booking-form">
                 <label class="field"><span>Tu nombre</span><input name="name" placeholder="¿Cómo te llamas?" required minlength="2" maxlength="100" autocomplete="name"></label>
                 <label class="field"><span>Fecha</span><input name="date" type="date" required></label>
-                <label class="field"><span>Hora</span><select name="time" required disabled><option value="">Consulta una fecha</option></select></label>
-                <label class="field guests-field"><span>Personas</span><input name="diners" type="number" min="1" max="8" value="2" required></label>
-                <button class="button button-primary submit-booking" type="submit">Buscar mesa <span>→</span></button>
-              </form>
-              <p id="booking-status" class="status-line" role="status">Selecciona una fecha para consultar la disponibilidad.</p>
+                <label class="field"><span>Hora</span><select name="time"><option value="19:00">19:00</option><option value="20:30">20:30</option><option value="22:00">22:00</option></select></label>
+                <label class="field guests-field"><span>Entradas</span><input name="diners" type="number" min="1" max="8" value="2" required></label>
+                <a class="button button-primary submit-booking" href="#seat-title">Elegir butacas <span>→</span></a>
+              </div>
+              <section class="seat-selection" aria-labelledby="seat-title">
+                <div class="seat-heading"><div><span class="section-kicker">SALA 1 · SONIDO DOLBY</span><h3 id="seat-title">Elige tus butacas</h3><p>Pulsa los asientos disponibles para seleccionarlos.</p></div><span class="seat-feature">✨ Butaca confort</span></div>
+                <div class="screen-wrap" aria-label="Pantalla de cine"><div class="screen-glow"></div><div class="screen-shape"></div><span>🎥 PANTALLA</span></div>
+                <div class="seat-legend" aria-label="Leyenda de butacas">
+                  <span><i class="legend-seat available"></i>Disponible</span>
+                  <span><i class="legend-seat chosen"></i>Seleccionada</span>
+                  <span><i class="legend-seat occupied"></i>Ocupada</span>
+                  <span><i class="legend-seat accessible"></i>Accesible</span>
+                </div>
+                <div id="seat-grid" class="seat-grid" role="group" aria-label="Mapa de butacas">
+                  <div class="seat-row"><span class="seat-row-label">A</span><input class="seat-input" id="seat-A1" type="checkbox" aria-label="Butaca A1 accesible"><label class="seat accessible-seat" for="seat-A1">1</label><input class="seat-input" id="seat-A2" type="checkbox" aria-label="Butaca A2"><label class="seat" for="seat-A2">2</label><input class="seat-input" id="seat-A3" type="checkbox" aria-label="Butaca A3"><label class="seat" for="seat-A3">3</label><input class="seat-input" id="seat-A4" type="checkbox" aria-label="Butaca A4"><label class="seat" for="seat-A4">4</label><input class="seat-input" id="seat-A5" type="checkbox" disabled aria-label="Butaca A5 ocupada"><label class="seat occupied-seat" for="seat-A5">5</label><span class="seat-aisle" aria-hidden="true"></span><input class="seat-input" id="seat-A6" type="checkbox" aria-label="Butaca A6"><label class="seat" for="seat-A6">6</label><input class="seat-input" id="seat-A7" type="checkbox" aria-label="Butaca A7"><label class="seat" for="seat-A7">7</label><input class="seat-input" id="seat-A8" type="checkbox" aria-label="Butaca A8"><label class="seat" for="seat-A8">8</label><input class="seat-input" id="seat-A9" type="checkbox" aria-label="Butaca A9"><label class="seat" for="seat-A9">9</label><input class="seat-input" id="seat-A10" type="checkbox" aria-label="Butaca A10 accesible"><label class="seat accessible-seat" for="seat-A10">10</label></div>
+                  <div class="seat-row"><span class="seat-row-label">B</span><input class="seat-input" id="seat-B1" type="checkbox" aria-label="Butaca B1"><label class="seat" for="seat-B1">1</label><input class="seat-input" id="seat-B2" type="checkbox" aria-label="Butaca B2"><label class="seat" for="seat-B2">2</label><input class="seat-input" id="seat-B3" type="checkbox" aria-label="Butaca B3"><label class="seat" for="seat-B3">3</label><input class="seat-input" id="seat-B4" type="checkbox" aria-label="Butaca B4"><label class="seat" for="seat-B4">4</label><input class="seat-input" id="seat-B5" type="checkbox" aria-label="Butaca B5"><label class="seat" for="seat-B5">5</label><span class="seat-aisle" aria-hidden="true"></span><input class="seat-input" id="seat-B6" type="checkbox" disabled aria-label="Butaca B6 ocupada"><label class="seat occupied-seat" for="seat-B6">6</label><input class="seat-input" id="seat-B7" type="checkbox" aria-label="Butaca B7"><label class="seat" for="seat-B7">7</label><input class="seat-input" id="seat-B8" type="checkbox" aria-label="Butaca B8"><label class="seat" for="seat-B8">8</label><input class="seat-input" id="seat-B9" type="checkbox" aria-label="Butaca B9"><label class="seat" for="seat-B9">9</label><input class="seat-input" id="seat-B10" type="checkbox" aria-label="Butaca B10"><label class="seat" for="seat-B10">10</label></div>
+                  <div class="seat-row"><span class="seat-row-label">C</span><input class="seat-input" id="seat-C1" type="checkbox" aria-label="Butaca C1"><label class="seat" for="seat-C1">1</label><input class="seat-input" id="seat-C2" type="checkbox" aria-label="Butaca C2"><label class="seat" for="seat-C2">2</label><input class="seat-input" id="seat-C3" type="checkbox" aria-label="Butaca C3"><label class="seat" for="seat-C3">3</label><input class="seat-input" id="seat-C4" type="checkbox" disabled aria-label="Butaca C4 ocupada"><label class="seat occupied-seat" for="seat-C4">4</label><input class="seat-input" id="seat-C5" type="checkbox" disabled aria-label="Butaca C5 ocupada"><label class="seat occupied-seat" for="seat-C5">5</label><span class="seat-aisle" aria-hidden="true"></span><input class="seat-input" id="seat-C6" type="checkbox" aria-label="Butaca C6"><label class="seat" for="seat-C6">6</label><input class="seat-input" id="seat-C7" type="checkbox" aria-label="Butaca C7"><label class="seat" for="seat-C7">7</label><input class="seat-input" id="seat-C8" type="checkbox" aria-label="Butaca C8"><label class="seat" for="seat-C8">8</label><input class="seat-input" id="seat-C9" type="checkbox" aria-label="Butaca C9"><label class="seat" for="seat-C9">9</label><input class="seat-input" id="seat-C10" type="checkbox" aria-label="Butaca C10"><label class="seat" for="seat-C10">10</label></div>
+                  <div class="seat-row"><span class="seat-row-label">D</span><input class="seat-input" id="seat-D1" type="checkbox" aria-label="Butaca D1"><label class="seat" for="seat-D1">1</label><input class="seat-input" id="seat-D2" type="checkbox" aria-label="Butaca D2"><label class="seat" for="seat-D2">2</label><input class="seat-input" id="seat-D3" type="checkbox" aria-label="Butaca D3"><label class="seat" for="seat-D3">3</label><input class="seat-input" id="seat-D4" type="checkbox" aria-label="Butaca D4"><label class="seat" for="seat-D4">4</label><input class="seat-input" id="seat-D5" type="checkbox" aria-label="Butaca D5"><label class="seat" for="seat-D5">5</label><span class="seat-aisle" aria-hidden="true"></span><input class="seat-input" id="seat-D6" type="checkbox" aria-label="Butaca D6"><label class="seat" for="seat-D6">6</label><input class="seat-input" id="seat-D7" type="checkbox" aria-label="Butaca D7"><label class="seat" for="seat-D7">7</label><input class="seat-input" id="seat-D8" type="checkbox" disabled aria-label="Butaca D8 ocupada"><label class="seat occupied-seat" for="seat-D8">8</label><input class="seat-input" id="seat-D9" type="checkbox" aria-label="Butaca D9"><label class="seat" for="seat-D9">9</label><input class="seat-input" id="seat-D10" type="checkbox" aria-label="Butaca D10"><label class="seat" for="seat-D10">10</label></div>
+                  <div class="seat-row"><span class="seat-row-label">E</span><input class="seat-input" id="seat-E1" type="checkbox" aria-label="Butaca E1"><label class="seat" for="seat-E1">1</label><input class="seat-input" id="seat-E2" type="checkbox" disabled aria-label="Butaca E2 ocupada"><label class="seat occupied-seat" for="seat-E2">2</label><input class="seat-input" id="seat-E3" type="checkbox" aria-label="Butaca E3"><label class="seat" for="seat-E3">3</label><input class="seat-input" id="seat-E4" type="checkbox" aria-label="Butaca E4"><label class="seat" for="seat-E4">4</label><input class="seat-input" id="seat-E5" type="checkbox" aria-label="Butaca E5"><label class="seat" for="seat-E5">5</label><span class="seat-aisle" aria-hidden="true"></span><input class="seat-input" id="seat-E6" type="checkbox" aria-label="Butaca E6"><label class="seat" for="seat-E6">6</label><input class="seat-input" id="seat-E7" type="checkbox" aria-label="Butaca E7"><label class="seat" for="seat-E7">7</label><input class="seat-input" id="seat-E8" type="checkbox" aria-label="Butaca E8"><label class="seat" for="seat-E8">8</label><input class="seat-input" id="seat-E9" type="checkbox" aria-label="Butaca E9"><label class="seat" for="seat-E9">9</label><input class="seat-input" id="seat-E10" type="checkbox" aria-label="Butaca E10"><label class="seat" for="seat-E10">10</label></div>
+                  <div class="seat-row"><span class="seat-row-label">F</span><input class="seat-input" id="seat-F1" type="checkbox" aria-label="Butaca F1"><label class="seat" for="seat-F1">1</label><input class="seat-input" id="seat-F2" type="checkbox" aria-label="Butaca F2"><label class="seat" for="seat-F2">2</label><input class="seat-input" id="seat-F3" type="checkbox" aria-label="Butaca F3"><label class="seat" for="seat-F3">3</label><input class="seat-input" id="seat-F4" type="checkbox" aria-label="Butaca F4"><label class="seat" for="seat-F4">4</label><input class="seat-input" id="seat-F5" type="checkbox" aria-label="Butaca F5"><label class="seat" for="seat-F5">5</label><span class="seat-aisle" aria-hidden="true"></span><input class="seat-input" id="seat-F6" type="checkbox" aria-label="Butaca F6"><label class="seat" for="seat-F6">6</label><input class="seat-input" id="seat-F7" type="checkbox" disabled aria-label="Butaca F7 ocupada"><label class="seat occupied-seat" for="seat-F7">7</label><input class="seat-input" id="seat-F8" type="checkbox" aria-label="Butaca F8"><label class="seat" for="seat-F8">8</label><input class="seat-input" id="seat-F9" type="checkbox" aria-label="Butaca F9"><label class="seat" for="seat-F9">9</label><input class="seat-input" id="seat-F10" type="checkbox" aria-label="Butaca F10 accesible"><label class="seat accessible-seat" for="seat-F10">10</label></div>
+                </div>
+                <div class="seat-summary"><div><strong>🎟️ Marca tus butacas</strong><span>Las grises están ocupadas. La selección es una vista previa.</span></div><strong>Desde 10,50 €</strong></div>
+              </section>
+              <p class="status-line">El mapa muestra una sala de ejemplo; la selección no se guarda en el servidor.</p>
             </div>
           </section>
 
           <section class="section-block upcoming" id="proximas">
-            <div class="section-heading"><div><span class="section-kicker">INSPÍRATE</span><h2>Lugares que te encantarán</h2></div><a class="text-link" href="#experiencias">Ver todos <span>→</span></a></div>
+            <div class="section-heading"><div><span class="section-kicker">PRÓXIMAMENTE</span><h2>Próximos estrenos</h2></div><a class="text-link" href="#experiencias">Ver todos <span>→</span></a></div>
             <div class="place-grid">
-              <article class="place-card"><div class="place-photo photo-one"><span class="place-label">★ 4.9</span><button class="heart" aria-label="Añadir a favoritos">♡</button></div><div class="place-info"><div><h3>Casa del Mar</h3><p>Mediterránea · Centro</p></div><span class="price">€€</span></div></article>
-              <article class="place-card"><div class="place-photo photo-two"><span class="place-label">★ 4.8</span><button class="heart" aria-label="Añadir a favoritos">♡</button></div><div class="place-info"><div><h3>La Terraza</h3><p>De autor · Eixample</p></div><span class="price">€€€</span></div></article>
-              <article class="place-card"><div class="place-photo photo-three"><span class="place-label">★ 4.9</span><button class="heart" aria-label="Añadir a favoritos">♡</button></div><div class="place-info"><div><h3>Brasa & Oliva</h3><p>Parrilla · Gràcia</p></div><span class="price">€€</span></div></article>
-              <article class="place-card"><div class="place-photo photo-four"><span class="place-label">★ 4.7</span><button class="heart" aria-label="Añadir a favoritos">♡</button></div><div class="place-info"><div><h3>Verde Vivo</h3><p>Vegetariana · Born</p></div><span class="price">€</span></div></article>
+              <article class="place-card"><div class="place-photo photo-one"><span class="place-label">★ 8.1</span><button class="heart" aria-label="Añadir a favoritos">♡</button></div><div class="place-info"><div><h3>Avatar: El camino del agua</h3><p>Aventura · 192 min</p></div><span class="price">12A</span></div></article>
+              <article class="place-card"><div class="place-photo photo-two"><span class="place-label">★ 7.8</span><button class="heart" aria-label="Añadir a favoritos">♡</button></div><div class="place-info"><div><h3>Deadpool & Wolverine</h3><p>Acción · 127 min</p></div><span class="price">16</span></div></article>
+              <article class="place-card"><div class="place-photo photo-three"><span class="place-label">★ 8.4</span><button class="heart" aria-label="Añadir a favoritos">♡</button></div><div class="place-info"><div><h3>Del revés 2</h3><p>Animación · 96 min</p></div><span class="price">A</span></div></article>
+              <article class="place-card"><div class="place-photo photo-four"><span class="place-label">★ 7.6</span><button class="heart" aria-label="Añadir a favoritos">♡</button></div><div class="place-info"><div><h3>Dune: Parte Dos</h3><p>Ciencia ficción · 166 min</p></div><span class="price">12A</span></div></article>
             </div>
           </section>
           <footer class="site-footer"><span>© 2025 ReservesPE</span><span>Un buen plan empieza aquí.</span></footer>
         </div>
 
+        <input id="assistant-visible-state" class="assistant-state" type="checkbox" checked aria-label="Mostrar u ocultar asistente">
+        <input id="assistant-compact-state" class="assistant-state" type="checkbox" aria-label="Minimizar o ampliar asistente">
         <aside class="assistant-panel" id="assistent" aria-label="Asistente de ReservesPE">
-          <div class="assistant-header"><div class="assistant-avatar">✦</div><div class="assistant-title"><strong>Asistente de ReservesPE</strong><span><i></i> En línea</span></div><button class="panel-control" aria-label="Minimizar">−</button><button class="panel-control close-control" aria-label="Cerrar">×</button></div>
+          <div class="assistant-header"><div class="assistant-avatar">✦</div><div class="assistant-title"><strong>Asistente de ReservesPE</strong><span><i></i> En línea</span></div><label for="assistant-compact-state" class="panel-control panel-minimize" aria-label="Minimizar o ampliar asistente" title="Minimizar o ampliar"><span class="control-minus">−</span><span class="control-plus">+</span></label><label for="assistant-visible-state" class="panel-control close-control" aria-label="Ocultar asistente" title="Ocultar asistente">×</label></div>
           <div id="messages" class="messages" role="log" aria-live="polite">
-            <div class="chat-row"><span class="bot-avatar">✦</span><div class="bubble bot-bubble"><strong>¡Hola! Soy tu asistente</strong><br>Cuéntame qué te apetece y te ayudaré a encontrar el lugar ideal. <span class="bubble-time">Ahora</span></div></div>
-            <div class="chat-row user-row"><div class="bubble user-bubble">Busco un sitio especial para cenar 😊</div></div>
-            <div class="chat-row"><span class="bot-avatar">✦</span><div class="bubble bot-bubble">¡Qué buen plan! ¿Qué tipo de comida te gusta y para qué día? <span class="bubble-time">Ahora</span></div></div>
-            <div class="suggestion-label">LUGARES POPULARES</div>
-            <div class="suggestion-cards"><article class="suggestion"><img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=240&q=70" alt="Restaurante Casa del Mar"><strong>Casa del Mar</strong><span>★★★★☆ · Mediterránea</span></article><article class="suggestion"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=240&q=70" alt="Restaurante La Terraza"><strong>La Terraza</strong><span>★★★★★ · De autor</span></article></div>
-            <div class="chat-row"><span class="bot-avatar">✦</span><div class="bubble bot-bubble">Puedo ayudarte a reservar en cualquiera. ¿Cuántas personas seréis?</div></div>
-            <div class="quick-replies"><button type="button">2 personas</button><button type="button">Elegir fecha</button></div>
-            <div class="chat-row"><span class="bot-avatar">✦</span><div class="bubble bot-bubble final-bubble">Perfecto. Indícame la fecha que prefieres y buscaré disponibilidad para ti.</div></div>
+            <div class="chat-row"><span class="bot-avatar">✦</span><div class="bubble bot-bubble"><strong>¡Hola! Soy tu asistente</strong><br>¿Qué película te gustaría ver? Te ayudo a encontrar una sesión. <span class="bubble-time">Ahora</span></div></div>
+            <div class="chat-row user-row"><div class="bubble user-bubble">Quiero ver Avatar: El camino del agua</div></div>
+            <div class="chat-row"><span class="bot-avatar">✦</span><div class="bubble bot-bubble">¡Gran elección! Estas películas están disponibles ahora:</div></div>
+            <div class="suggestion-label">EN CARTELERA</div>
+            <div class="suggestion-cards"><article class="suggestion"><img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=240&q=70" alt="Avatar: El camino del agua"><strong>Avatar: El camino del agua</strong><span>★ 8.1 · Aventura</span></article><article class="suggestion"><img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=240&q=70" alt="Dune: Parte Dos"><strong>Dune: Parte Dos</strong><span>★ 7.6 · Ciencia ficción</span></article></div>
+            <div class="chat-row"><span class="bot-avatar">✦</span><div class="bubble bot-bubble">¿Para qué día y cuántas entradas necesitas?</div></div>
+            <div class="quick-replies"><button type="button">2 entradas</button><button type="button">Hoy</button></div>
+            <div class="chat-row"><span class="bot-avatar">✦</span><div class="bubble bot-bubble final-bubble">Genial. Elige un horario para consultar las sesiones disponibles.</div></div>
           </div>
-          <form id="chat-form" class="chat-form"><label class="sr-only" for="chat-message">Escribe tu mensaje</label><input id="chat-message" name="message" placeholder="Escribe tu mensaje..." maxlength="500" required autocomplete="off"><button type="submit" aria-label="Enviar mensaje">➤</button></form>
-          <p id="chat-status" class="chat-status" role="status"></p>
-          <div class="assistant-footnote">El asistente puede cometer errores. <a href="#reserva">Ver condiciones</a></div>
+          <div class="chat-form" aria-label="Chat de demostración"><label class="sr-only" for="chat-message">Chat desactivado</label><input id="chat-message" placeholder="Chat de muestra · sin envío" disabled><button type="button" aria-label="Envío desactivado" disabled>➤</button></div>
+          <p class="chat-status">Chat de muestra sin envío de mensajes.</p>
+          <div class="assistant-footnote">Asistente de muestra <a href="#reserva">Reservar butaca</a></div>
         </aside>
+        <label for="assistant-visible-state" class="assistant-launcher" role="button" aria-label="Mostrar asistente">💬 <span>Asistente</span></label>
       </main>
     </div>
   </div>

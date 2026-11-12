@@ -1,27 +1,51 @@
 <!doctype html>
 <html lang="ca">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gestió · Esquelet</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070d17">
+  <title>Gestió de reserves · ReservesPE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="/css/styles.css">
-  <script type="module" src="/gestion/gestion.js"></script>
 </head>
 <body>
-  <h1>Gestió de reserves</h1><a href="/">Tornar</a>
-  <!-- TODO F3: aquesta pàgina ENCARA NO té autenticació. Configurar-la a Nginx. -->
-  <p id="admin-status" role="status">TODO F4: carregar les reserves.</p>
-  <button id="refresh" type="button">Actualitzar</button>
-  <table><thead><tr><th>ID</th><th>Nom</th><th>Data</th><th>Hora</th><th>Comensals</th><th>Estat</th><th>Accions</th></tr></thead>
-    <tbody id="reservations"></tbody>
-  </table>
-  <h2>Editar reserva</h2>
-  <form id="edit-form">
-    <label>ID <input name="id" readonly required></label>
-    <label>Nom <input name="name" required></label>
-    <label>Data <input name="date" type="date" required></label>
-    <label>Hora <input name="time" type="time" required></label>
-    <label>Comensals <input name="diners" type="number" min="1" max="8" required></label>
-    <button type="submit">Desar canvis</button>
-  </form>
+  <main class="management-page">
+    <div class="management-shell">
+      <header class="management-top">
+        <a class="management-brand" href="/" aria-label="ReservesPE, inici">
+          <span class="brand-mark" aria-hidden="true">R</span>
+          <span><small>ReservesPE · Administració</small><h1>Gestió de reserves</h1></span>
+        </a>
+        <a href="/">← Tornar a la cartellera</a>
+      </header>
+
+      <section class="management-intro" aria-labelledby="page-title">
+        <h2 id="page-title">Les reserves del cinema</h2>
+        <p>Consulta les reserves i actualitza les dades de cada sessió.</p>
+      </section>
+
+      <section aria-label="Llistat de reserves">
+        <div class="management-toolbar">
+          <span class="management-count"><strong>Reserves</strong> · llistat actual</span>
+          <button class="management-button" type="button" disabled>↻ &nbsp; Actualització no disponible</button>
+        </div>
+        <p class="management-status">Aquesta és una maqueta visual. La llista real necessita connexió amb el servidor.</p>
+        <div class="table-wrap">
+          <table class="management-table">
+            <thead><tr><th scope="col">Codi</th><th scope="col">Nom</th><th scope="col">Data</th><th scope="col">Hora</th><th scope="col">Entrades</th><th scope="col">Estat</th><th scope="col">Accions</th></tr></thead>
+            <tbody><tr><td colspan="7">Encara no hi ha dades connectades.</td></tr></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="management-form-card" aria-labelledby="edit-title">
+        <div class="management-form-heading">
+          <h2 id="edit-title">Edició de reserves</h2>
+          <p>L'edició s'activarà quan el projecte tingui el backend connectat.</p>
+        </div>
+      </section>
+    </div>
+  </main>
 </body>
 </html>
