@@ -1,7 +1,5 @@
 /* Base deliberadamente mínima. TODO F4: identidad visual, móvil y accesibilidad. */
-body {
-    background-color: rgb(255, 0, 0);
-}
+ body { font-family: sans-serif; margin: 1rem; } 
 section { border: 1px solid #aaa; padding: 1rem; margin: 1rem 0; }
 label { display: block; margin: .7rem 0; }
 input, select, button { font: inherit; max-width: 100%; }
