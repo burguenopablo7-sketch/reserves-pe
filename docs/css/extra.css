@@ -3,14 +3,14 @@
   --reserves-text: #111827;
   --reserves-card-bg: #ffffff;
   --reserves-border: rgba(15, 23, 42, 0.12);
-  --reserves-muted: #475569;
+  --reserves-muted: #1b2b42;
 }
 
 [data-md-color-scheme="slate"] {
   --reserves-bg: #0f172a;
   --reserves-text: #f8fafc;
   --reserves-card-bg: #111827;
-  --reserves-border: rgba(148, 163, 184, 0.25);
+  --reserves-border: rgba(19, 28, 41, 0.25);
   --reserves-muted: #cbd5e1;
 }
 
