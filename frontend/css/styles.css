@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
 
-html,body,html *,body *{cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cpath d='M6 13h20l-3 16H9z' fill='%23f7f3e8' stroke='%23111b2b' stroke-width='2' stroke-linejoin='round'/%3E%3Cpath d='M10 14h4l-1 14h-2zm9 0h4l-2 14h-2z' fill='%23ef4d65'/%3E%3Ccircle cx='10' cy='9' r='4' fill='%23ffd45f' stroke='%23111b2b' stroke-width='1.5'/%3E%3Ccircle cx='17' cy='7' r='4' fill='%23fff0a6' stroke='%23111b2b' stroke-width='1.5'/%3E%3Ccircle cx='23' cy='10' r='4' fill='%23ffd45f' stroke='%23111b2b' stroke-width='1.5'/%3E%3C/svg%3E") 12 12,auto!important}
+html,body,html *,body *{cursor:url("../assets/popcorn-cursor.png") 14 14,auto!important}
 
 :root{color-scheme:dark;--bg:#060c16;--panel:#0a1422;--panel2:#101d30;--line:#1b2b42;--text:#f3f6fc;--muted:#8796ab;--blue:#1768f5;--cyan:#48b9ff;--font:'DM Sans',sans-serif;--radius:12px}
 .avatar{display:grid;place-items:center;padding:0}.avatar svg{display:block;width:15px;height:15px}
