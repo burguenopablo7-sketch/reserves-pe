@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
 
-html,body,html *,body *{cursor:url("../assets/popcorn-cursor.png") 14 14,auto!important}
+html,body,html *,body *{cursor:url("../assets/popcorn-cursor.png?v=2") 10 10,auto!important}
 
 :root{color-scheme:dark;--bg:#060c16;--panel:#0a1422;--panel2:#101d30;--line:#1b2b42;--text:#f3f6fc;--muted:#8796ab;--blue:#1768f5;--cyan:#48b9ff;--font:'DM Sans',sans-serif;--radius:12px}
 .avatar{display:grid;place-items:center;padding:0}.avatar svg{display:block;width:15px;height:15px}
