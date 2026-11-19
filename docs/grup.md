@@ -7,14 +7,14 @@
 ![Eneko](img/eneko.png)
 
 **17 anys — Estudiant de SMX**  
-*"Aprendiz de mucho maestro de nada."*
+*"Aprendiz de mucho maestro de nada"*
 
 ## Pablo Burgueño Pesado
 
 ![Pablo](img/foto_grupo.png)
 
 **17 anys — Estudiant de SMX**  
-*"Las cosas de palacio van despacio."*
+*"Las cosas de palacio van despacio"*
 
 <style>
 .md-nav--secondary > .md-nav__list[data-md-component="toc"] {
