@@ -25,6 +25,11 @@ body {
   max-width: 1100px;
 }
 
+.md-header,
+.md-tabs {
+  background-color: #1b2b42;
+}
+
 .md-content {
   padding-top: 1rem;
 }
