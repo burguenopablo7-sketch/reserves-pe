@@ -39,6 +39,8 @@ Funció principal: Aixecar un servidor local per previsualitzar els canvis i el 
 En lloc de configurar entorns manuals o escriure comandes llargues, aquest arxiu automatitza les proves locals:
 Entorn idèntic: Utilitza la mateixa imatge (squidfunk/mkdocs-material) que GitHub per evitar errors de compatibilitat.
 Vista en directe: Actualitza la web al navegador automàticament cada vegada que desem un canvi als arxius.
+![mkdocs](img/webdocker.png)
+![mkdocs](img/reservas.png)
 
 ## **Resum**
 
